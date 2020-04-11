@@ -2,7 +2,9 @@ import React from 'react';
 
 const SimpleUserData = (props) => {
   const data = props.data;
+  console.log(props);
   return (
+    
     <div>
       {data.map(user => 
         <ul>
